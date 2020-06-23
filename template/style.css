@@ -96,3 +96,20 @@ a:hover{
 .product-rating{
     margin-bottom: 1rem;
 }
+/* sidbar*/
+.brand button{
+    font-size: 3rem;
+    padding: .5rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    transform: translateX(-30rem);
+    width: 30rem;
+}
+.sidebar.open{
+    transform: translateX(0);
+}
